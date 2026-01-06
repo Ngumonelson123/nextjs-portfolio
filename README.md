@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Portfolio Website
 
-## Getting Started
+## 📌 Project Overview
+This project is a personal portfolio website built using **Next.js**.  
+It showcases my skills, projects, and contact information while demonstrating key Next.js features such as **page-based routing**, **server-side rendering (SSR)**, component styling, and optimized image handling.
 
-First, run the development server:
+The project is designed to be simple, scalable, and deployable to modern hosting platforms.
 
+---
+
+## 🚀 Features
+- Page-based routing using the **Pages Router**
+- Server-Side Rendering (SSR) with `getServerSideProps`
+- Reusable components (Navbar)
+- Global styling with CSS
+- Optimized images using Next.js Image component
+- Production-ready build and deployment support
+
+---
+
+## 🗂️ Project Structure
+nextjs-portfolio/
+├── pages/
+│ ├── index.js # Home page
+│ ├── about.js # About page
+│ ├── projects.js # Projects page
+│ ├── contact.js # Contact page
+│ ├── ssr.js # SSR demonstration page
+│ └── _app.js # Global layout and styles
+├── components/
+│ └── Navbar.js
+├── styles/
+│ └── globals.css
+├── public/
+│ └── profile.jpg
+└── package.json
+
+
+---
+
+## 🧠 Server-Side Rendering (SSR)
+This project demonstrates SSR using Next.js’ `getServerSideProps`.  
+The `/ssr` page is rendered on the server for every request, fulfilling the SSR requirement.
+
+---
+
+## 🛠️ Technologies Used
+- Next.js
+- React
+- JavaScript (ES6+)
+- CSS
+- Node.js
+
+---
+
+## ▶️ Getting Started
+
+### Prerequisites
+- Node.js **v20+**
+- npm
+
+### Installation
 ```bash
+npm install
+Run in Development
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build for Production
+npm run build
 
-## Learn More
+🌍 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application is ready for deployment on platforms such as:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Vercel (recommended)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Netlify
 
-## Deploy on Vercel
+Render
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👤 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Nelson Ngumo
+DevOps & Cloud Engineer
+
+📄 License
+
+This project is open-source and available for learning and demonstration purposes.
